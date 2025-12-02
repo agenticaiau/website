@@ -1,0 +1,1442 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#262A2C" />
+
+    <style>
+      body {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      body.preloaded {
+        opacity: 1;
+        pointer-events: all;
+      }
+    </style>
+
+    <script type="text/javascript">
+      var ADMIN_BAR_VISIBLE = false;
+      var admin_url = "https://alpha-wave.ai/wp-admin/admin-ajax.php";
+      const theme_url = "https://alpha-wave.ai/wp-content/themes/alpha-wave";
+    </script>
+
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <style>
+      img:is([sizes="auto" i], [sizes^="auto," i]) {
+        contain-intrinsic-size: 3000px 1500px;
+      }
+    </style>
+
+    <link rel="dns-prefetch" href="https://code.jquery.com/" />
+
+    <style id="classic-theme-styles-inline-css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      data-minify="1"
+      rel="stylesheet"
+      id="rise-style-css"
+      href="style.css"
+      media=""
+    />
+    <style id="wp-custom-css">
+      .cky-notice-des *,
+      .cky-notice-des {
+        font-size: 12px;
+        line-height: 18px;
+        font-family: "Space";
+      }
+
+      .cky-consent-bar .cky-notice-des p,
+      .cky-gpc-wrapper .cky-gpc-desc p,
+      .cky-preference-body-wrapper .cky-preference-content-wrapper p,
+      .cky-accordion-header-wrapper .cky-accordion-header-des p,
+      .cky-cookie-des-table li div:last-child p {
+        font-family: "Space";
+      }
+
+      .cky-notice-des *,
+      .cky-notice-des p a.cky-policy  {
+        color: #e8b678 !important;
+      }
+      .cky-consent-container .cky-consent-bar {
+        border-color: #e9b678 !important;
+        background-color: #262a2c !important;
+      }
+
+      .cky-consent-bar .cky-banner-btn-close,
+      .cky-btn-revisit-wrapper {
+        display: none !important;
+      }
+    </style>
+  </head>
+
+  <body
+    class="home wp-singular page-template page-template-tpl-home page-template-tpl-home-php page page-id-6 wp-theme-alpha-wave singular"
+  >
+    <main class="main">
+      <header class="page-header" r2-method="headerLinks">
+        <div class="grid">
+          <!-- logo -->
+          <div class="logo hover-button">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg
+              version="1.1"
+              viewBox="0 0 420 38"
+              id="svg2"
+              sodipodi:docname="logo.svg"
+              width="420"
+              height="38"
+              inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+              xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+              xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:svg="http://www.w3.org/2000/svg"
+            >
+              <defs id="defs2" />
+              <sodipodi:namedview
+                id="namedview2"
+                pagecolor="#505050"
+                bordercolor="#ffffff"
+                borderopacity="1"
+                inkscape:showpageshadow="0"
+                inkscape:pageopacity="0"
+                inkscape:pagecheckerboard="1"
+                inkscape:deskcolor="#505050"
+                inkscape:zoom="2.5893617"
+                inkscape:cx="172.82251"
+                inkscape:cy="44.605588"
+                inkscape:window-width="2400"
+                inkscape:window-height="1494"
+                inkscape:window-x="-11"
+                inkscape:window-y="-11"
+                inkscape:window-maximized="1"
+                inkscape:current-layer="svg2"
+              />
+              <g
+                fill="#e8b678"
+                fill-rule="none"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray="none"
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+                id="g2"
+                transform="translate(-65.000005,-215.99957)"
+              >
+                <g id="g1">
+                  <g fill-rule="nonzero" id="element-id-90632">
+                    <path
+                      d="m 133.60567,250.59376 h 9.75724 c 0,0 5.21277,-13.72251 8.59885,-21.38573 0.93563,-2.09402 2.00491,-2.62866 4.63358,-2.62866 2.62866,0 3.69795,0.53464 4.63358,2.62866 3.38607,7.66322 8.59885,21.38573 8.59885,21.38573 h 9.75724 c 0,0 -7.75233,-19.7818 -10.96019,-26.24208 -2.04947,-4.14349 -4.85634,-4.94545 -9.26715,-4.94545 h -5.52465 c -4.41081,0 -7.21769,0.80197 -9.26715,4.94545 -3.20786,6.46027 -10.96019,26.24208 -10.96019,26.24208 z"
+                      id="element-id-45569"
+                    />
+                    <path
+                      d="m 197.49555,250.59376 h 19.96002 v -15.05912 h -9.17804 v 8.55429 h -9.75724 c -4.49991,0 -6.90581,-2.58411 -6.90581,-6.54938 v -5.07911 c 0,-3.69795 2.4059,-6.54938 6.90581,-6.54938 h 18.93528 v -6.50483 h -19.91546 c -8.42063,0 -15.14823,5.34643 -15.14823,13.09876 v 5.03456 c 0,7.9751 6.7276,13.05421 15.10367,13.05421 z"
+                      id="element-id-71686"
+                    />
+                    <path
+                      d="m 222.49012,237.53956 c 0,7.75233 4.94545,13.05421 12.78689,13.05421 h 23.30154 v -6.50483 h -22.09859 c -2.71777,0 -4.76724,-1.78214 -4.76724,-4.9009 v -1.38116 h 25.84109 v -6.32661 h -25.84109 v -1.51482 c 0,-2.4059 1.55938,-4.05438 4.76724,-4.05438 h 22.09859 v -6.50483 h -23.34609 c -7.79688,0 -12.74233,5.34643 -12.74233,13.05421 z"
+                      id="element-id-23691"
+                    />
+                    <path
+                      d="m 263.25668,219.40624 v 31.18753 h 9.2226 v -22.67779 l 19.42537,22.67779 h 13.5443 v -31.18753 l -9.2226,0.13366 v 22.90056 l -19.6927,-23.03422 z"
+                      id="element-id-97687"
+                    />
+                    <path
+                      d="m 310.83993,219.40624 v 6.50483 h 13.05421 v 24.6827 h 8.95528 v -24.6827 h 13.05421 v -6.50483 z"
+                      id="element-id-3265"
+                    />
+                    <path
+                      d="m 351.42827,250.59376 h 9.2226 v -31.18753 h -9.2226 z"
+                      id="element-id-58538"
+                    />
+                    <path
+                      d="m 364.97257,232.505 v 5.03456 c 0,7.9751 6.7276,13.05421 15.10367,13.05421 h 19.96002 v -6.50483 h -18.93528 c -4.49991,0 -6.90581,-2.58411 -6.90581,-6.54938 v -5.07911 c 0,-3.69795 2.4059,-6.54938 6.90581,-6.54938 h 18.93528 v -6.50483 H 380.1208 c -8.42063,0 -15.14823,5.34643 -15.14823,13.09876 z"
+                      id="element-id-37978"
+                    />
+                    <path
+                      d="m 426.01102,250.59376 h 9.75724 c 0,0 5.21277,-13.72251 8.59885,-21.38573 0.93563,-2.09402 2.00491,-2.62866 4.63358,-2.62866 2.62866,0 3.69795,0.53464 4.63358,2.62866 3.38607,7.66322 8.59885,21.38573 8.59885,21.38573 h 9.75724 c 0,0 -7.75233,-19.7818 -10.96019,-26.24208 -2.04947,-4.14349 -4.85634,-4.94545 -9.26715,-4.94545 h -5.52465 c -4.41081,0 -7.21769,0.80197 -9.26715,4.94545 -3.20786,6.46027 -10.96019,26.24208 -10.96019,26.24208 z"
+                      id="element-id-88430"
+                    />
+                    <path
+                      d="M 475.7774,250.59376 H 485 v -31.18753 h -9.2226 z"
+                      id="element-id-2769"
+                    />
+                  </g>
+                  <g fill-rule="evenodd" id="element-id-71365">
+                    <g id="element-id-54977">
+                      <path
+                        d="m 85.86943,219.34754 c 0,-1.762 1.4273,-3.188 3.1906,-3.188 h 10.71851 c 2.5645,0 4.64151,2.073 4.64151,4.63801 v 28.40404 c 0,2.56 -2.075,4.63801 -4.63201,4.63801 H 75.14061 c -1.7585,0 -3.1841,-1.429 -3.1841,-3.188 0,-1.763 1.4256,-3.188 3.1923,-3.188 h 16.80452 c 1.1211,0 2.032,-0.911 2.032,-2.029 0,-1.123 -0.9063,-2.029 -2.0325,-2.029 h -8.69051 c -1.7609,0 -3.1899,-1.429 -3.1899,-3.189 0,-1.76 1.4247,-3.188 3.1834,-3.188 h 4.05931 c 1.1214,0 2.0326,-0.911 2.0326,-2.029 0,-1.118 -0.9107,-2.029 -2.0237,-2.029 H 68.19341 c -1.7624,0 -3.1934,-1.428 -3.1934,-3.188 0,-1.762 1.4231,-3.189 3.1872,-3.189 h 25.51003 c 1.118,0 2.0272,-0.91 2.0272,-2.029 0,-1.118 -0.9114,-2.029 -2.0265,-2.029 h -4.63901 c -1.7608,0 -3.1895,-1.429 -3.1895,-3.188 z"
+                        id="element-id-98388"
+                      />
+                      <path
+                        d="m 68.4782,219.34754 c 0,-1.762 1.4295,-3.188 3.1922,-3.188 h 7.52861 c 1.7619,0 3.1922,1.428 3.1922,3.188 0,1.761 -1.4294,3.188 -3.1922,3.188 H 71.6704 c -1.7619,0 -3.1922,-1.428 -3.1922,-3.188 z"
+                        id="element-id-59724"
+                      />
+                      <path
+                        d="m 73.40771,243.40557 c 1.7602,0 3.1864,-1.428 3.1864,-3.189 0,-1.759 -1.4269,-3.188 -3.1864,-3.188 H 69.3459 c -1.7602,0 -3.1865,1.428 -3.1865,3.188 0,1.759 1.427,3.189 3.1865,3.189 z"
+                        id="element-id-5948"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+
+          <!-- nav -->
+          <div class="nav">
+            <div class="link about-link hover-button">
+              <span>About Us</span>
+            </div>
+
+            <div class="link services-link hover-button">
+              <span>Services</span>
+            </div>
+
+            <div class="link technologies-link hover-button">
+              <span>Technology</span>
+            </div>
+
+            <div class="link started-link hover-button">
+              <span>Get Started</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- bottom nav -->
+      <div class="bottom-nav" r2-method="headerLinks">
+        <div class="scroll-top hover-button">
+          <svg viewBox="0 0 93 93" fill="none">
+            <g clip-path="url(#clip0_588_559)">
+              <path
+                d="M35.6408 48.965L41.3127 43.293H49.8206V37.6211H32.8048V48.965H35.6408Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M77.5842 10.3105H14.2625C11.9657 10.3105 10.1053 12.171 10.1053 14.4678V77.7895C10.1053 80.0862 11.9657 81.9467 14.2625 81.9467H77.5842C79.881 81.9467 81.7414 80.0862 81.7414 77.7895V14.4678C81.7414 12.171 79.881 10.3105 77.5842 10.3105ZM55.4932 60.3126H49.8213V48.9687H44.1493L38.4774 54.6407H32.8054V60.3126H27.1335V31.9487H32.8054V37.6207L38.4774 31.9487H49.8213V37.6207H55.4932V60.3126ZM64.7132 60.3126H59.0413V31.9487H64.7132V60.3126Z"
+                fill="#E8B678"
+              />
+              <path d="M21.1903 0H16.572V8.31447H21.1903V0Z" fill="#E8B678" />
+              <path d="M30.2858 0H25.6676V8.31447H30.2858V0Z" fill="#E8B678" />
+              <path d="M39.383 0H34.7647V8.31447H39.383V0Z" fill="#E8B678" />
+              <path d="M48.4785 0H43.8603V8.31447H48.4785V0Z" fill="#E8B678" />
+              <path d="M57.5805 0H52.9623V8.31447H57.5805V0Z" fill="#E8B678" />
+              <path d="M66.6761 0H62.0578V8.31447H66.6761V0Z" fill="#E8B678" />
+              <path d="M75.7732 0H71.155V8.31447H75.7732V0Z" fill="#E8B678" />
+              <path
+                d="M21.1903 84.0254H16.572V92.3399H21.1903V84.0254Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M30.2858 84.0254H25.6676V92.3399H30.2858V84.0254Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M39.383 84.0254H34.7647V92.3399H39.383V84.0254Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M48.4785 84.0254H43.8603V92.3399H48.4785V84.0254Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M57.5805 84.0254H52.9623V92.3399H57.5805V84.0254Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M66.6761 84.0254H62.0578V92.3399H66.6761V84.0254Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M75.7732 84.0254H71.155V92.3399H75.7732V84.0254Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M92.3403 16.5713H84.0258V21.1895H92.3403V16.5713Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M92.3403 25.668H84.0258V30.2862H92.3403V25.668Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M92.3403 34.7642H84.0258V39.3824H92.3403V34.7642Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M92.3403 43.8608H84.0258V48.4791H92.3403V43.8608Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M92.3403 52.9614H84.0258V57.5797H92.3403V52.9614Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M92.3403 62.0576H84.0258V66.6759H92.3403V62.0576Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M92.3403 71.1548H84.0258V75.773H92.3403V71.1548Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M8.31447 16.5713H0V21.1895H8.31447V16.5713Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M8.31447 25.668H0V30.2862H8.31447V25.668Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M8.31447 34.7642H0V39.3824H8.31447V34.7642Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M8.31447 43.8608H0V48.4791H8.31447V43.8608Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M8.31447 52.9614H0V57.5797H8.31447V52.9614Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M8.31447 62.0576H0V66.6759H8.31447V62.0576Z"
+                fill="#E8B678"
+              />
+              <path
+                d="M8.31447 71.1548H0V75.773H8.31447V71.1548Z"
+                fill="#E8B678"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_588_559">
+                <rect width="93" height="93" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <span>Back to top</span>
+        </div>
+
+        <div class="b-inner">
+          <div
+            class="voice-toggle hover-button"
+            data-on-text="on"
+            data-off-text="off"
+          >
+            <div>Voice <span>on</span></div>
+
+            <div class="icon">
+              <svg viewBox="0 0 23 21" fill="none">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.0005 12.8611V8.07948L23.0078 8.08424C23.0078 7.46603 22.4909 6.96433 21.8539 6.96433H20.4183C19.7813 6.96433 19.2643 6.46264 19.2643 5.84443V4.31793C19.2643 3.69973 18.7474 3.19803 18.1104 3.19803H8.82027C8.18328 3.19803 7.66635 2.69633 7.66635 2.07812V1.1199C7.66635 0.501698 7.14941 0 6.51243 0H4.88077C4.24379 0 3.72685 0.501698 3.72685 1.1199V5.8373C3.72685 6.4555 3.20991 6.9572 2.57293 6.9572H1.15197C0.514983 6.9572 -0.00195312 7.4589 -0.00195312 8.07711V12.8587C-0.00195312 13.4769 0.514983 13.9786 1.15197 13.9786H2.57293C3.20991 13.9786 3.72685 14.4803 3.72685 15.0985V16.6844C3.72685 17.3027 4.24379 17.8043 4.88077 17.8043H14.1636C14.8006 17.8043 15.3175 18.306 15.3175 18.9243V19.8849C15.3175 20.5031 15.8344 21.0048 16.4714 21.0048H18.1031C18.7401 21.0048 19.257 20.5031 19.257 19.8849V15.1009C19.257 14.4827 19.7739 13.981 20.4109 13.981H21.8466C22.4836 13.981 23.0005 13.4793 23.0005 12.8611ZM14.8463 15.4108L18.0305 14.2552C18.6117 14.0437 19 13.4848 19 12.8579V8.14214C19 7.51522 18.6117 6.95628 18.0305 6.74479L14.8463 5.58915C12.6824 4.80362 10.3176 4.80362 8.15372 5.58915L4.96947 6.74479C4.38832 6.95628 4 7.51522 4 8.14214V12.8579C4 13.4848 4.38832 14.0437 4.96947 14.2552L8.15372 15.4108C10.3176 16.1964 12.6824 16.1964 14.8463 15.4108Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M9.42072 13.5601H8.68084C8.34275 13.5601 8.06836 13.2938 8.06836 12.9656C8.06836 12.6375 8.34275 12.3712 8.68084 12.3712H9.42072C9.75882 12.3712 10.0332 12.6375 10.0332 12.9656C10.0332 13.2938 9.75882 13.5601 9.42072 13.5601Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M11.8699 13.5601H11.1301C10.792 13.5601 10.5176 13.2938 10.5176 12.9656C10.5176 12.6375 10.792 12.3712 11.1301 12.3712H11.8699C12.208 12.3712 12.4824 12.6375 12.4824 12.9656C12.4824 13.2938 12.208 13.5601 11.8699 13.5601Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M14.3211 13.5601H13.5812C13.2431 13.5601 12.9688 13.2938 12.9688 12.9656C12.9688 12.6375 13.2431 12.3712 13.5812 12.3712H14.3211C14.6592 12.3712 14.9336 12.6375 14.9336 12.9656C14.9336 13.2938 14.6592 13.5601 14.3211 13.5601Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M8.81819 7.70862H8.51684C8.01351 7.70862 7.60547 8.10463 7.60547 8.59313V9.67737C7.60547 10.1659 8.01351 10.5619 8.51684 10.5619H8.81819C9.32153 10.5619 9.72956 10.1659 9.72956 9.67737V8.59313C9.72956 8.10463 9.32153 7.70862 8.81819 7.70862Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M14.5369 7.70862H14.2356C13.7323 7.70862 13.3242 8.10463 13.3242 8.59313V9.67737C13.3242 10.1659 13.7323 10.5619 14.2356 10.5619H14.5369C15.0403 10.5619 15.4483 10.1659 15.4483 9.67737V8.59313C15.4483 8.10463 15.0403 7.70862 14.5369 7.70862Z"
+                  fill="#E8B678"
+                />
+              </svg>
+              <svg viewBox="0 0 23 21" fill="none">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.0005 12.8611V8.07948L23.0078 8.08424C23.0078 7.46603 22.4909 6.96433 21.8539 6.96433H20.4183C19.7813 6.96433 19.2643 6.46264 19.2643 5.84443V4.31793C19.2643 3.69973 18.7474 3.19803 18.1104 3.19803H8.82027C8.18328 3.19803 7.66635 2.69633 7.66635 2.07812V1.1199C7.66635 0.501698 7.14941 0 6.51243 0H4.88077C4.24379 0 3.72685 0.501698 3.72685 1.1199V5.8373C3.72685 6.4555 3.20991 6.9572 2.57293 6.9572H1.15197C0.514983 6.9572 -0.00195312 7.4589 -0.00195312 8.07711V12.8587C-0.00195312 13.4769 0.514983 13.9786 1.15197 13.9786H2.57293C3.20991 13.9786 3.72685 14.4803 3.72685 15.0985V16.6844C3.72685 17.3027 4.24379 17.8043 4.88077 17.8043H14.1636C14.8006 17.8043 15.3175 18.306 15.3175 18.9243V19.8849C15.3175 20.5031 15.8344 21.0048 16.4714 21.0048H18.1031C18.7401 21.0048 19.257 20.5031 19.257 19.8849V15.1009C19.257 14.4827 19.7739 13.981 20.4109 13.981H21.8466C22.4836 13.981 23.0005 13.4793 23.0005 12.8611ZM14.8463 15.4108L18.0305 14.2552C18.6117 14.0437 19 13.4848 19 12.8579V8.14214C19 7.51522 18.6117 6.95628 18.0305 6.74479L14.8463 5.58915C12.6824 4.80362 10.3176 4.80362 8.15372 5.58915L4.96947 6.74479C4.38832 6.95628 4 7.51522 4 8.14214V12.8579C4 13.4848 4.38832 14.0437 4.96947 14.2552L8.15372 15.4108C10.3176 16.1964 12.6824 16.1964 14.8463 15.4108Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M14.4207 13.5601H8.68084C8.34275 13.5601 8.06836 13.2938 8.06836 12.9656C8.06836 12.6375 8.34275 12.3712 8.68084 12.3712H14.4207C14.7588 12.3712 15.0332 12.6375 15.0332 12.9656C15.0332 13.2938 14.7588 13.5601 14.4207 13.5601Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M8.81819 7.70862H8.51684C8.01351 7.70862 7.60547 8.10463 7.60547 8.59313V8.67737C7.60547 9.16587 8.01351 9.56188 8.51684 9.56188H8.81819C9.32153 9.56188 9.72956 9.16587 9.72956 8.67737V8.59313C9.72956 8.10463 9.32153 7.70862 8.81819 7.70862Z"
+                  fill="#E8B678"
+                />
+                <path
+                  d="M14.5369 7.70862H14.2356C13.7323 7.70862 13.3242 8.10463 13.3242 8.59313V8.67737C13.3242 9.16587 13.7323 9.56188 14.2356 9.56188H14.5369C15.0403 9.56188 15.4483 9.16587 15.4483 8.67737V8.59313C15.4483 8.10463 15.0403 7.70862 14.5369 7.70862Z"
+                  fill="#E8B678"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="anim-grid click-button" r2-method="animGrid">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+          </div>
+        </div>
+
+        <div class="mobile-buttons">
+          <div class="btn prev click-button">
+            <svg
+              viewBox="0 0 32 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19.2 19.2002H12.8V12.8002H19.2V19.2002ZM25.6 6.4002H19.2V12.8002H25.6V6.4002ZM25.6 6.4002V0.00019455H32V6.4002H25.6ZM6.4 6.4002H12.8V12.8002H6.4V6.4002ZM6.4 6.4002H0V0.00019455H6.4V6.4002Z"
+                fill="#E8B678"
+              />
+            </svg>
+          </div>
+
+          <div class="btn next click-button">
+            <svg
+              viewBox="0 0 32 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19.2 19.2002H12.8V12.8002H19.2V19.2002ZM25.6 6.4002H19.2V12.8002H25.6V6.4002ZM25.6 6.4002V0.00019455H32V6.4002H25.6ZM6.4 6.4002H12.8V12.8002H6.4V6.4002ZM6.4 6.4002H0V0.00019455H6.4V6.4002Z"
+                fill="#E8B678"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <section class="main-frame" r2-method="init3D">
+        <!-- layout -->
+        <div class="layout preload">
+          <div class="button-frame">
+            <div class="enter-button click-button">
+              <span>Enter</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- layout -->
+        <div class="layout sections" r2-method="fullpage">
+          <!-- section 1 -->
+          <div class="layout intro">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.5
+                    }'
+            >
+              <!-- title -->
+              <div class="title">AI Powered Growth</div>
+
+              <!-- text -->
+              <div class="text">at every stage</div>
+            </div>
+          </div>
+
+          <!-- section 2 -->
+          <div class="layout section-2">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.5
+                    }'
+            >
+              <!-- title -->
+              <div class="title">
+                We are Agentic AI, a tech-driven company blending human
+                expertise with AI innovation.
+              </div>
+            </div>
+          </div>
+
+          <!-- section 3 -->
+          <div class="layout section-3">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.5
+                    }'
+            >
+              <!-- row -->
+              <div class="row">
+                <div class="title">predict</div>
+              </div>
+
+              <!-- row -->
+              <div class="row">
+                <div class="title">
+                  influence
+                  <small>&</small>
+                </div>
+              </div>
+
+              <!-- row -->
+              <div class="row">
+                <div class="title">drive outcomes</div>
+
+                <div class="text naration">
+                  We develop custom Blueprints to <br />
+                  strategically leverage AI, enhancing <br />
+                  various aspects of your vertical.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- section 4 1 -->
+          <div class="layout section-4 first">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.4
+                    }'
+            >
+              <!-- subtitile -->
+              <div class="subtitle">
+                Our approach involves identifying relevant AI solutions and
+                providing bespoke customization to
+              </div>
+
+              <!-- title -->
+              <div class="title">Augment</div>
+
+              <!-- text -->
+              <div class="text">your existing workflows</div>
+            </div>
+          </div>
+
+          <!-- section 4 2 -->
+          <div class="layout section-4 second">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.4
+                    }'
+            >
+              <!-- subtitile -->
+              <div class="subtitle">
+                Our approach involves identifying relevant AI solutions and
+                providing bespoke customization to
+              </div>
+
+              <!-- title -->
+              <div class="title">Supercharge</div>
+
+              <!-- text -->
+              <div class="text">creative processes</div>
+            </div>
+          </div>
+
+          <!-- section 4 3 -->
+          <div class="layout section-4 third">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.4
+                    }'
+            >
+              <!-- subtitile -->
+              <div class="subtitle">
+                Our approach involves identifying relevant AI solutions and
+                providing bespoke customization to
+              </div>
+
+              <!-- title -->
+              <div class="title">Automate</div>
+
+              <!-- text -->
+              <div class="text">routine tasks</div>
+
+              <!-- chip -->
+              <div class="chip">
+                <img src="assets/chip.svg" alt="chip image" class="media" />
+              </div>
+            </div>
+          </div>
+
+          <!-- section 5 -->
+          <div class="layout section-5">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 2.5
+                    }'
+            >
+              <!-- chip -->
+              <div class="chip">
+                <img src="assets/chip.svg" alt="chip image" class="media" />
+              </div>
+
+              <!-- title -->
+              <div class="title">
+                The Future <br />
+                is Hybrid
+              </div>
+
+              <!-- subtitile -->
+              <div class="text">
+                As the future blends human expertise with AI, <br />
+                we are leading this transition, ensuring that <br />
+                our clients thrive in an evolving landscape.
+              </div>
+            </div>
+          </div>
+
+          <!-- section 6 first -->
+          <div class="layout section-6 first">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.75
+                    }'
+            >
+              <!-- title -->
+              <div class="title">
+                What we do <br />
+                and how
+              </div>
+
+              <!-- grid -->
+              <div class="grid">
+                <div class="inner">
+                  <!-- num frame -->
+                  <div class="num-frame">
+                    <div class="num">01</div>
+
+                    <div class="subtitle">
+                      Creative and Strategic <br />
+                      Input
+                    </div>
+                  </div>
+                </div>
+
+                <div class="inner">
+                  <!-- num frame -->
+                  <div class="num-frame">
+                    <div class="num">02</div>
+
+                    <div class="subtitle">Tooling mastery</div>
+                  </div>
+                </div>
+
+                <div class="inner">
+                  <!-- num frame -->
+                  <div class="num-frame">
+                    <div class="num">03</div>
+
+                    <div class="subtitle">Custom Dashboards</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- section 8 -->
+          <div class="layout section-8">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.8
+                    }'
+            >
+              <!-- subtitle -->
+              <div class="subtitle">
+                With 30+ years leading at Google and Meta—shaping Ads, YouTube,
+                and building AI products in A120—we’ve guided the world’s top
+                brands through transformative growth, blending deep technical
+                expertise with strategic insight.
+              </div>
+            </div>
+
+            <!-- icons -->
+            <div class="icons">
+              <div class="icon">
+                <img src="assets/icons/instagram.svg" alt="ic" />
+              </div>
+              <div class="icon">
+                <img src="assets/icons/facebook.svg" alt="ic" />
+              </div>
+              <div class="icon">
+                <img src="assets/icons/youtube.svg" alt="ic" />
+              </div>
+              <div class="icon">
+                <img src="assets/icons/google.svg" alt="ic" />
+              </div>
+              <div class="icon">
+                <img src="assets/icons/emerce.svg" alt="ic" />
+              </div>
+              <div class="icon">
+                <img src="assets/icons/area120.svg" alt="ic" />
+              </div>
+              <div class="icon">
+                <img src="assets/icons/spotify.svg" alt="ic" />
+              </div>
+            </div>
+          </div>
+
+          <!-- section 9 -->
+          <div class="layout section-9">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.8
+                    }'
+            >
+              <!-- numbers -->
+              <div class="numbers">
+                <!-- inner -->
+                <div class="inner">
+                  <div class="num">
+                    <div>30</div>
+                    <div>+</div>
+                  </div>
+
+                  <div class="small">Performance Ads Experts</div>
+                </div>
+
+                <!-- inner -->
+                <div class="inner">
+                  <div class="num">
+                    <div>40</div>
+                    <div>+</div>
+                  </div>
+
+                  <div class="small">Of S&P500 Businesses work with us</div>
+                </div>
+
+                <!-- inner -->
+                <div class="inner">
+                  <div class="num">
+                    <div>25</div>
+                    <div>%</div>
+                  </div>
+
+                  <div class="small">Average ROAS increase</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- section 10 -->
+          <div class="layout section-10" r2-method="sect10Controll">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.8
+                    }'
+            >
+              <!-- title -->
+              <div class="main-title">Services</div>
+
+              <!-- grid -->
+              <div class="grid">
+                <div class="inner">
+                  <!-- chips -->
+                  <div class="chip-frame">
+                    <img src="assets/chip2.svg" alt="chip" class="media" />
+                  </div>
+                </div>
+
+                <div class="inner">
+                  <!-- titles -->
+                  <div class="track-frame">
+                    <div class="title-track">
+                      <!-- frame -->
+                      <div class="frame">
+                        <div class="title">
+                          <span> Custom agentic systems </span>
+                        </div>
+                      </div>
+
+                      <!-- frame -->
+                      <div class="frame">
+                        <div class="title">
+                          <span> AI enabled Marketing </span>
+                        </div>
+                      </div>
+
+                      <!-- frame -->
+                      <div class="frame">
+                        <div class="title">
+                          <span> Audience understanding </span>
+                        </div>
+                      </div>
+
+                      <!-- frame -->
+                      <div class="frame">
+                        <div class="title">
+                          <span> Product Optimisation </span>
+                        </div>
+                      </div>
+
+                      <!-- frame -->
+                      <div class="frame">
+                        <div class="title">
+                          <span> Sales & Operations </span>
+                        </div>
+                      </div>
+
+                      <!-- frame -->
+                      <div class="frame">
+                        <div class="title">
+                          <span> AI Thought Leadership </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- section 11 -->
+          <div class="layout section-11">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 1.8
+                    }'
+            >
+              <!-- text -->
+              <div class="text">
+                Effectiveness should improve with each interaction. Our Machine
+                Learning and Optimization service sharpens your competitive
+                edge. Agentic AI harnesses the predictive power of agentic
+                systems.
+              </div>
+
+              <!-- title -->
+              <div class="title">ML < ROI</div>
+
+              <!-- label -->
+              <div class="label">( ML to increase ROI )</div>
+            </div>
+          </div>
+
+          <!-- section 14 -->
+          <div class="layout section-14">
+            <div
+              class="title-frame"
+              anim-piece
+              data-from='{
+                        "opacity": "0",
+                        "scale": "0.8",
+                        "y": "-1%"
+                    }'
+              data-to='{
+                        "opacity": "1",
+                        "scale": "1",
+                        "y": "0%",
+                        "duration": 2,
+                        "ease": "power4.inOut",
+                        "delay": 2.4
+                    }'
+            >
+              <!-- title -->
+              <div class="title">drive your business FWrD</div>
+
+              <!-- subtitle -->
+              <a
+                href="mailto:contact@agenticai.net.au"
+                target="_blank"
+                class="subtitle hover-button"
+              >
+                contact@agenticai.net.au
+              </a>
+
+              <!-- bottom -->
+              <div class="bottom">
+                <div class="small-text">Check out our</div>
+
+                <div class="small-title hover-button">Services</div>
+
+                <div class="copy">
+                  © AGENTIC AI |
+                  <a
+                    href="Privacy-Policy-Agentic AI.pdf"
+                    target="_blank"
+                    class="hover-button"
+                    ><span>Privacy Policy</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- canvas -->
+        <div class="canvas-frame"></div>
+      </section>
+
+      <footer class="page-footer"></footer>
+    </main>
+
+    <script data-minify="1" src="jquery-3.7.1.min.js" id="jquery-js"></script>
+    <script data-minify="1" src="index.js" id="rise-script-js"></script>
+  </body>
+</html>
