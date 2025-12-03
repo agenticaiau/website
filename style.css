@@ -44,29 +44,25 @@ a {
   font-display: swap;
   font-family: Lexa;
   font-weight: 400;
-  src: url(../../../../../../../../themes/alpha-wave/dist/scripts/a801a2cebfd615279ed0.woff2)
-    format("woff2");
+  src: url(/assets/fonts/a801a2cebfd615279ed0.woff2) format("woff2");
 }
 @font-face {
   font-display: swap;
   font-family: Space;
   font-weight: 300;
-  src: url(../../../../../../../../themes/alpha-wave/dist/scripts/cef0e895dbcc724b4548.woff2)
-    format("woff2");
+  src: url(/assets/fonts/cef0e895dbcc724b4548.woff2) format("woff2");
 }
 @font-face {
   font-display: swap;
   font-family: Space;
   font-weight: 400;
-  src: url(../../../../../../../../themes/alpha-wave/dist/scripts/e1b8202a96e97b511253.woff2)
-    format("woff2");
+  src: url(/assets/fonts/e1b8202a96e97b511253.woff2) format("woff2");
 }
 @font-face {
   font-display: swap;
   font-family: Space;
   font-weight: 500;
-  src: url(../../../../../../../../themes/alpha-wave/dist/scripts/2b310c8ea4d2404bd57a.woff2)
-    format("woff2");
+  src: url(/assets/fonts/2b310c8ea4d2404bd57a.woff2) format("woff2");
 }
 html {
   font-size: 6.944vw;
@@ -258,7 +254,7 @@ body .pg-pips ul li:hover a {
   white-space: nowrap;
 }
 .page-header .nav .link:before {
-  background-image: url(../../../../../../../../themes/alpha-wave/dist/scripts/3c835a021b439bcd5740.svg);
+  background-image: url(/assets/fonts/3c835a021b439bcd5740.svg);
   bottom: 0;
   left: 0;
   transform: translate(-25%, 25%);
@@ -277,7 +273,7 @@ body .pg-pips ul li:hover a {
   width: 0.105rem;
 }
 .page-header .nav .link:after {
-  background-image: url(../../../../../../../../themes/alpha-wave/dist/scripts/800796f9a60c84f3f3bc.svg);
+  background-image: url(/assets/fonts/800796f9a60c84f3f3bc.svg);
   right: 0;
   top: 0;
   transform: translate(25%, -25%);
